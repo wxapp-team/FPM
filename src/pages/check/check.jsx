@@ -1,5 +1,5 @@
 import Taro, { Component } from '@tarojs/taro';
-import { View } from '@tarojs/components';
+import { View, Image } from '@tarojs/components';
 
 export default class extends Component {
   componentWillMount() {}
@@ -17,6 +17,14 @@ export default class extends Component {
   };
 
   render() {
-    return <View className="check">签到</View>;
+    return (
+      <View className="check-page">
+        <View className="full-height text-center at-row at-row__align--center">
+          <View className="at-col">
+            <Image src="../../static/images/coming.png" mode="aspectFit" />
+          </View>
+        </View>
+      </View>
+    );
   }
 }

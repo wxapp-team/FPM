@@ -8,5 +8,5 @@
       "prefer-double"
     ]
   },
-    "parser": "babel-eslint"
-  }
+  "parser": "babel-eslint"
+}
